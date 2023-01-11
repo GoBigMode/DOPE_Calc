@@ -2,7 +2,7 @@ import turtle
 
 screen = turtle.Screen()
 
-reticle = "test.png"
+reticle = "Reticle.gif"
 
 screen.addshape(reticle)
 turtle.shape(reticle)

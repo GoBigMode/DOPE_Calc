@@ -33,7 +33,7 @@ def Draw_Reticle(Reticle, x, y):
 
 from turtle import numinput
 
-distance = numinput("Distance", "range in meters: (50-1000)", 300, minval=0, maxval=1000)
+distance = numinput("Distance", "range in yards: (0-1000)", 100, minval=0, maxval=1000)
 
 def Change_In_Reticle(distance):
     if distance == 0:
